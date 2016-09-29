@@ -7,6 +7,8 @@ angular
               templateUrl: 'home.html',
               controller: 'HomeController as home'
             })
+
+
     $urlRouterProvider.otherwise('/');
 
   })
