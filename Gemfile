@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise" end
+
+gem "devise_token_auth"
+
+gem "omniauth"
 
 gem 'responders'
 
